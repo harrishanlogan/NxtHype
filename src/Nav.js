@@ -9,9 +9,7 @@ function Nav() {
 
     return (
         <nav>
-            <h3>
-                NXTHYPE
-            </h3>
+            <h3> NXTHYPE</h3>
             <ul className="nav-links">
                 <Link style={Navstyle} to="/League">
                     <li>League Items Ranker</li>
