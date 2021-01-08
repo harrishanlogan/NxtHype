@@ -22,7 +22,7 @@ function App() {
 const Home = () => (
   <headpage>
   <div>
-    <h1>Homepage</h1>
+    <h1>Home</h1>
   </div>
   </headpage>
 )
