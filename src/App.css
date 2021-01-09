@@ -33,11 +33,32 @@ nav {
   text-align: center;
 }
 
-.picstyle {
-  max-height: 30vh;
-  max-width: 30vh;
-  justify-content: space-between;
-  align-items: center;
+.lpicstyle {
+  max-height: 100vh;
+  max-width: 100vh;
+  display: flex;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 580px;
+  right: 0;
+  margin: auto;
+  border: 5px solid black;
+}
+
+.apicstyle {
+  max-height: 100vh;
+  max-width: 100vh;
+  display: flex;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 580px;
+  margin: auto;
+  border: 5px solid black;
 }
 
 .nxtstyle {

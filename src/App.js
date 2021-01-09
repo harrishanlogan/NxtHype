@@ -6,7 +6,7 @@ import Nav from "./Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import animelogo from "./images/bganime.jpeg";
-import leaguelogo from "./images/bglolanime.jpeg";
+import leaguelogo from "./images/bglol.jpeg";
 
 function App() {
   return (
@@ -24,10 +24,10 @@ function App() {
 const Home = () => (
   <div className="container">
     <Link to="/Anime">
-      <img className="picstyle" src={animelogo} />
+      <img className="apicstyle" src={animelogo} />
     </Link>
     <Link to="/League">
-      <img className="picstyle" src={leaguelogo} />
+      <img className="lpicstyle" src={leaguelogo} />
     </Link>
   </div>
 );
