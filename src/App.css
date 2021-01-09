@@ -15,5 +15,22 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background:rgb(41, 199, 199)
+  background:rgb(41, 199, 199);
+  margin: 0 auto;
+
+}
+
+.container{
+  background: url("./images/bglolanime.jpeg");
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  min-height:100vh;
+  background-size: cover;
+}
+
+#hometitle{
+  margin: 0 auto;
+  text-align: center;
+
 }

@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className="App">
+    <div >
       <Nav />
       <Route path="/" exact component={Home}/>
       <Route path="/League" component={League}/>
@@ -19,12 +19,10 @@ function App() {
   );
 }
 
-const Home = () => (
-  <headpage>
-  <div>
-    <h1>Home</h1>
+const Home = () => (  
+  <div className="container">
+    <h1 id="hometitle">WHAT ARE YOU HYPED FOR?</h1>
   </div>
-  </headpage>
 )
 
 export default App;
