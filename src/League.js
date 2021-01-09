@@ -14,7 +14,9 @@ function League() {
     const data = await fetch(url);
     const items = await data.json();
     var obj = items.data;
-    console.log(Object.keys(obj)[Math.floor(Math.random() * 135)]);
+    console.log(
+      Object.keys(obj)[Math.floor(Math.random() * Object.keys(obj).length)]
+    );
   };
   return <div>hi</div>;
 }
