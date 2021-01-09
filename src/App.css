@@ -34,11 +34,10 @@ nav {
 }
 
 .picstyle {
-  min-height: 30vh;
-  display: inline-flex;
-  justify-content: space-around;
+  max-height: 30vh;
+  max-width: 30vh;
+  justify-content: space-between;
   align-items: center;
-  width: 50%;
 }
 
 .nxtstyle {

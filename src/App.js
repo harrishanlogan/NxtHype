@@ -5,6 +5,8 @@ import League from "./League";
 import Nav from "./Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
+import animelogo from "./images/bganime.jpeg";
+import leaguelogo from "./images/bglolanime.jpeg";
 
 function App() {
   return (
@@ -22,10 +24,10 @@ function App() {
 const Home = () => (
   <div className="container">
     <Link to="/Anime">
-      <h3 className="picstyle">Anime Hype</h3>
+      <img className="picstyle" src={animelogo} />
     </Link>
     <Link to="/League">
-      <h3 className="picstyle">League Hype</h3>
+      <img className="picstyle" src={leaguelogo} />
     </Link>
   </div>
 );
