@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import Guess from "./Guess";
 
 function League() {
   useEffect(() => {
@@ -18,20 +19,22 @@ function League() {
       Math.floor(Math.random() * Object.keys(obj).length)
     ];
     setIcon(champ);
-
-    // var i;
-    // for (i = 0; i < Object.keys(obj).length; ) {
-    //   if (JSON.stringify(Object.keys(obj)[i]) === JSON.stringify(champ)) {
-    //     console.log(Object.values(obj)[i]);
-    //     break;
-    //   } else {   []
-    //     i++;
-    //   }
-    // }
   };
   return (
     <div>
-      <h1 className="fade-in">What Champion is this?</h1>
+      {<Guess champName={Icon} />}
+      <div>
+        <img
+          className="banner-img"
+          src={
+            Icon
+              ? "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/" +
+                Icon +
+                "_0.jpg"
+              : ""
+          }
+        />
+      </div>
       <img
         className="spawnstyle"
         src={
