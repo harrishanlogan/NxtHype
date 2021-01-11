@@ -179,6 +179,6 @@ body {
   left: 0px;
   right: 0;
   margin: auto;
-  animation: fadeInpic 5s;
+  animation: fadeInpic 3s;
   z-index: 10;
 }
