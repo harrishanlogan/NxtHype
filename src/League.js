@@ -24,14 +24,16 @@ function League() {
     //   if (JSON.stringify(Object.keys(obj)[i]) === JSON.stringify(champ)) {
     //     console.log(Object.values(obj)[i]);
     //     break;
-    //   } else {
+    //   } else {   []
     //     i++;
     //   }
     // }
   };
   return (
     <div>
+      <h1 className="fade-in">What Champion is this?</h1>
       <img
+        className="spawnstyle"
         src={
           Icon
             ? "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/" +
