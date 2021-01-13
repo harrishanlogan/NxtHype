@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
 .App {
   text-align: center;
 }
@@ -145,29 +147,6 @@ body {
   padding: 0;
 }
 
-.search-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(0, 0, 0);
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-.search-btn {
-  color: black;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .checkstyle {
   max-height: 100vh;
   max-width: 100vh;
@@ -181,4 +160,21 @@ body {
   margin: auto;
   animation: fadeInpic 3s;
   z-index: 10;
+}
+
+.searchcontainer {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+
+input[type="text"] {
+  transition: width 0.4s ease-in-out;
 }

@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function Anime() {
-    return (
-        <div>
-            <h1>Anime</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1>Currently Not Available</h1>
+      <h3> Check out the League Game Instead</h3>
+    </div>
+  );
 }
 
 export default Anime;
