@@ -22,7 +22,7 @@ function League() {
   };
   return (
     <div>
-      {<Guess champName={Icon} />}
+      <Guess champName={Icon} />
       <div>
         <img
           className="banner-img"

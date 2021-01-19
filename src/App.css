@@ -84,7 +84,7 @@ a {
   right: 0;
   margin: auto;
   animation: fadeInpic 5s;
-  border: 5px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 @keyframes fadeInpic {
@@ -164,15 +164,22 @@ body {
 
 .searchcontainer {
   position: absolute;
-  top: 18%;
+  bottom: 10%;
   left: 50%;
   z-index: 1;
   transform: translate(-50%, -50%);
-  width: 10%;
+  width: 40%;
+  height: 6.9%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 5px solid white;
+  background: black;
+  /* border: 5px solid white; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  color: white;
 }
 
 input[type="text"] {

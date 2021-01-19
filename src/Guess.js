@@ -17,15 +17,15 @@ function Guess({ champName }) {
   };
   return (
     <div>
-      <div className="searchcontainer">
-        <input
-          type="text"
-          placeholder="Guess the Champ..."
-          onChange={(e) => {
-            setSearchTerm(e.target.value);
-          }}
-        />
-      </div>
+      <input
+        type="text"
+        className="searchcontainer"
+        spellcheck="false"
+        placeholder="Guess the Champ..."
+        onChange={(e) => {
+          setSearchTerm(e.target.value);
+        }}
+      />
       {checkmark ? <img className="checkstyle" src={greencheck} /> : null}
     </div>
   );
