@@ -92,7 +92,7 @@ a {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.79;
   }
 }
 
@@ -160,6 +160,7 @@ body {
   margin: auto;
   animation: fadeInpic 3s;
   z-index: 10;
+  opacity: 79%;
 }
 
 .searchcontainer {
