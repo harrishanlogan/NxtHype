@@ -17,7 +17,7 @@ function Nav() {
           <li>Upcoming Anime Ranker</li>
         </Link>
         <Link style={Navstyle} to="/League">
-          <li>League Items Ranker</li>
+          <li>League Champion Guesser</li>
         </Link>
       </ul>
     </nav>
